@@ -487,7 +487,7 @@ Feel free to add more tests as needed to ensure the reliability and correctness 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/hoangsonww/Employee-Management-Fullstack-App.git
+git clone https://github.com/devops0425/employee-management-fullstack-devops.git
 cd frontend
 ```
 
@@ -720,13 +720,13 @@ This project is licensed under the **MIT License.** See the [LICENSE](LICENSE) f
 
 ## Contact
 
-For any questions or issues, please contact [hoangson091104@gmail.com](mailto:hoangson091104@gmail.com).
+For any questions or issues, please contact [devopsapps.info@gmail.com](mailto:hoangson091104@gmail.com).
 
 ---
 
 Thank you for checking out the **Employee Management Full-Stack Application!** Feel free to use this project for your own learning or development purposes.
 
-Created with ❤️ by [Son Nguyen](https://github.com/hoangsonww) in 2024.
+Created with ❤️ by [Aditya Sonwane](https://github.com/hoangsonww) in 2025.
 
 ---
 

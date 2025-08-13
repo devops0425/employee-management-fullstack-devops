@@ -1,0 +1,36 @@
+
+1️⃣ Uninstall MySQL
+bash
+Copy
+Edit
+brew services stop mysql
+brew uninstall mysql
+Remove leftover data/config:
+
+bash
+Copy
+Edit
+rm -rf /opt/homebrew/var/mysql
+rm -rf /opt/homebrew/etc/my.cnf*
+2️⃣ Uninstall MongoDB
+bash
+Copy
+Edit
+brew services stop mongodb-community@7.0
+brew uninstall mongodb-community@7.0
+brew untap mongodb/brew
+Remove leftover data/config:
+
+bash
+Copy
+Edit
+rm -rf /opt/homebrew/var/mongodb
+rm -rf /opt/homebrew/etc/mongod.conf
+3️⃣ Check if completely removed
+bash
+Copy
+Edit
+brew list
+brew services list
+If they don’t appear there, they’re gone.
+

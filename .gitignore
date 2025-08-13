@@ -1,0 +1,108 @@
+# =======================
+# Node / Frontend
+# =======================
+/node_modules
+/.pnp
+.pnp.js
+/build
+/dist
+/public/env-config.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =======================
+# Environment Files
+# =======================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =======================
+# macOS
+# =======================
+.DS_Store
+
+# =======================
+# IDE / Editor
+# =======================
+.idea/
+.vscode/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# =======================
+# Java / Spring Boot
+# =======================
+/target
+*.class
+*.jar
+*.war
+*.log
+*.out
+*.db
+*.h2.db
+
+# Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/wrapper/maven-wrapper.properties
+
+# =======================
+# Testing / Coverage
+# =======================
+/coverage
+/test-results/
+*.test.js
+*.spec.js
+
+# =======================
+# Docker / Kubernetes
+# =======================
+/docker-compose.override.yml
+/docker-compose.override.yaml
+/kubernetes/*.local.yaml
+/.docker/
+*.env.override
+.env.*
+
+# =======================
+# Logs
+# =======================
+*.log
+logs/
+
+# =======================
+# Terraform
+# =======================
+*.tfstate
+*.tfstate.backup
+.terraform/
+terraform.tfvars
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# =======================
+# Jenkins
+# =======================
+/.jenkins/
+jenkins.log
+# Keep main Jenkinsfile in repo
+
+# =======================
+# Misc / Other
+# =======================
+*.txt

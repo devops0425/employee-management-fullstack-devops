@@ -28,7 +28,7 @@ metadata:
   name: frontend
   namespace: ems
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: frontend
   ports:

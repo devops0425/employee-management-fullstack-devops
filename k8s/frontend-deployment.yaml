@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: aadus/ems-frontend:latest
+        image: aadus/ems-frontend:v1
         ports:
         - containerPort: 80
         env:

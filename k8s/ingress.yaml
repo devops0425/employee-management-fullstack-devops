@@ -1,0 +1,23 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: frontend-ingress
+  namespace: ems
+  annotations:
+    kubernetes.io/ingress.class: alb                      # Use AWS ALB ingress
+    alb.ingress.kubernetes.io/scheme: internet-facing     # ALB is internet-facing
+    alb.ingress.kubernetes.io/listen-ports: '[{"HTTP":80}]'
+    alb.ingress.kubernetes.io/target-type: ip             # Use IP targets (Pods)
+    alb.ingress.kubernetes.io/backend-protocol: HTTP
+spec:
+  rules:
+    - host: trainwithats.online                            # Replace with your domain
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: frontend
+                port:
+                  number: 80

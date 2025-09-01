@@ -57,7 +57,7 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 # # cd IdeaProjects/Employee-Management/backend
 # # (Fix the path to your project directory)
 # #
-# # docker build --platform linux/amd64 -t hoangsonw/employee-management-app .
+# # docker build --platform linux/amd64 -t aadus/employee-management-app .
 # # This builds the Docker image ready for Render deployment.
 # #
 # # docker run -p 8080:8080 \
@@ -69,7 +69,7 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 #   #  hoangsonw/employee-management-app
 # # This runs the Docker container locally. Replace the environment variables with your own MySQL database details.
 # #
-# # docker push hoangsonw/employee-management-app
+# # docker push aadus/employee-management-app
 # # This pushes the Docker image to Docker Hub.
 
 

@@ -29,6 +29,7 @@ metadata:
   name: frontend
   namespace: ems
 spec:
+  type: nodePort
   selector:
     app: frontend
   ports:
